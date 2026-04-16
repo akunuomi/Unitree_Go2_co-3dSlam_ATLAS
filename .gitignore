@@ -1,0 +1,16 @@
+# Colcon artifacts
+build/
+install/
+log/
+
+# Artifacts accidentally generated under src/
+src/build/
+src/install/
+src/log/
+
+# Python cache
+**/__pycache__/
+**/*.pyc
+
+# IDE
+.vscode/

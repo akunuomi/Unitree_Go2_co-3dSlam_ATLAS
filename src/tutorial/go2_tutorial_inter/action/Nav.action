@@ -1,0 +1,14 @@
+# 请求数据（方向向量 + 运动距离）
+# x,y: 位移方向向量（不要求单位向量）
+# m:   运动距离（米，必须大于0）
+float32 x
+float32 y
+float32 m
+
+---
+# 最终响应（坐标）
+geometry_msgs/Point point 
+
+---
+# 连续反馈（剩余距离）
+float32 distance
